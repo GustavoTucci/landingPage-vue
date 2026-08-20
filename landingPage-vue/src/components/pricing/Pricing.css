@@ -228,3 +228,31 @@
 .pricing .cta-button.featured {
   color: var(--surface-dark);
 }
+
+.pricing-grid {
+  align-items: stretch;
+}
+
+.pricing .price-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing .features-list {
+  flex: 1;
+}
+
+.pricing .cta-button,
+.pricing .cta-button.featured {
+  background: var(--accent-gold);
+  border-color: var(--accent-gold);
+  color: var(--surface-dark);
+}
+
+.pricing .cta-button:hover,
+.pricing .cta-button.featured:hover {
+  background: var(--accent-gold-light);
+  border-color: var(--accent-gold-light);
+  color: var(--surface-dark);
+  transform: translateY(-2px);
+}

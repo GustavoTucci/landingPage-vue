@@ -233,17 +233,17 @@ textarea::placeholder {
 }
 
 .contact-section {
-  background: #1b1b1a;
+  background: var(--surface-dark-soft);
 }
 
 .contact-info,
 .contact-form {
-  background: #302e2b;
+  background: rgba(247, 243, 236, 0.03);
   border-color: rgba(225, 213, 197, 0.3);
 }
 
 .contact-form input,
 .contact-form textarea {
-  background: #252422;
+  background: var(--surface-dark);
   border-color: rgba(225, 213, 197, 0.38);
 }

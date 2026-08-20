@@ -17,7 +17,6 @@
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-lg);
-  transition: all 0.3s ease;
 }
 
 .blog-card:hover {
@@ -42,7 +41,6 @@
 }
 
 .category {
-  position: absolute;
   top: var(--spacing-md);
   right: var(--spacing-md);
   background: var(--primary);
@@ -129,6 +127,74 @@
 
 .post-date {
   color: var(--gray-500);
+}
+
+/* O bloco editorial usa uma base clara para destacar as imagens. */
+.blog-section {
+  background: #f4efe7;
+}
+
+.blog-title,
+.post-title {
+  color: #272522;
+}
+
+.blog-post {
+  background: #f8f4ed;
+  border-color: #4f4a43;
+}
+
+.post-category,
+.post-link {
+  color: #a58c6e;
+}
+
+.post-date,
+.post-excerpt {
+  color: #6d665d;
+}
+
+.post-date::before {
+  color: #a59b8d;
+}
+
+.blog-section .blog-title {
+  color: #25221f !important;
+  font-weight: 600;
+}
+
+.blog-section .blog-post {
+  background: #fffaf2;
+  border: 1px solid #4b443b;
+  box-shadow: 0 12px 28px rgba(55, 47, 38, 0.08);
+}
+
+.blog-section .post-content {
+  background: #fffaf2;
+}
+
+.blog-section .post-category,
+.blog-section .post-date {
+  color: #8d7354 !important;
+  font-weight: 600;
+}
+
+.blog-section .post-title {
+  color: #292622 !important;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.blog-section .post-excerpt {
+  color: #5d554b !important;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.blog-section .post-link {
+  color: #8d7354 !important;
+  font-weight: 700;
 }
 
 .blog-section {
@@ -262,3 +328,37 @@
     padding: var(--space-4);
   }
 } 
+
+/* Override final: a secao segue a mesma superficie escura do site. */
+.blog-section {
+  background: var(--surface-dark) !important;
+  border-top: 1px solid rgba(201, 183, 159, 0.16);
+}
+
+.blog-section .blog-title {
+  color: var(--white) !important;
+}
+
+.blog-section .blog-post,
+.blog-section .post-content {
+  background: var(--surface-dark-soft) !important;
+}
+
+.blog-section .blog-post {
+  border: 1px solid rgba(201, 183, 159, 0.3);
+  box-shadow: none;
+}
+
+.blog-section .post-category,
+.blog-section .post-date,
+.blog-section .post-link {
+  color: var(--accent-gold) !important;
+}
+
+.blog-section .post-title {
+  color: var(--white) !important;
+}
+
+.blog-section .post-excerpt {
+  color: var(--gray-600) !important;
+}
