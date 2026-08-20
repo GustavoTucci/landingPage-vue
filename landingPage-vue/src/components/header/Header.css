@@ -6,11 +6,11 @@
   z-index: 1000;
   transition: all 0.3s ease;
   background: transparent;
-  padding: var(--space-6) 0;
+  padding: var(--space-8) 0;
 }
 
 .header.scrolled {
-  background: rgba(26, 26, 26, 0.95);
+  background: rgba(29, 29, 28, 0.92);
   backdrop-filter: blur(10px);
   padding: var(--space-4) 0;
   border-bottom: 1px solid var(--glass-border);
@@ -32,7 +32,7 @@
 }
 
 .logo {
-  font-size: 1.8rem;
+  font-size: clamp(1.8rem, 3vw, 2.7rem);
   font-weight: 800;
   display: flex;
   align-items: center;
@@ -57,7 +57,7 @@
 .nav-links {
   display: flex;
   align-items: center;
-  gap: var(--space-8);
+  gap: var(--space-6);
 }
 
 .nav-link {
@@ -94,7 +94,7 @@
   color: var(--accent-gold);
   border: 1px solid var(--accent-gold);
   padding: var(--space-2) var(--space-6);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-full);
   font-weight: 500;
   transition: all 0.3s ease;
   cursor: pointer;

@@ -12,7 +12,7 @@
       <div class="contact-content">
         <div class="contact-info">
           <div class="info-item">
-            <div class="info-icon">📍</div>
+            <div class="info-icon" aria-hidden="true">01</div>
             <div class="info-text">
               <h3>Localização</h3>
               <p>Atendimento remoto para todo o Brasil</p>
@@ -20,7 +20,7 @@
           </div>
           
           <div class="info-item">
-            <div class="info-icon">📞</div>
+            <div class="info-icon" aria-hidden="true">02</div>
             <div class="info-text">
               <h3>Telefone</h3>
               <p>+55 (11) 99999-9999</p>
@@ -28,7 +28,7 @@
           </div>
           
           <div class="info-item">
-            <div class="info-icon">✉️</div>
+            <div class="info-icon" aria-hidden="true">03</div>
             <div class="info-text">
               <h3>Email</h3>
               <p>projetos@archviz.com</p>

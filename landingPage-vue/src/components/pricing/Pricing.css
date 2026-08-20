@@ -35,6 +35,26 @@
   text-align: center;
 }
 
+.pricing {
+  background: var(--surface-dark-soft);
+  border-top: 1px solid rgba(201, 183, 159, 0.16);
+}
+
+.pricing .section-title,
+.price-card h3 {
+  color: var(--white);
+}
+
+.pricing-subtitle,
+.features-list li {
+  color: var(--gray-600);
+}
+
+.price-card {
+  background: rgba(247, 243, 236, 0.03);
+  border-color: rgba(201, 183, 159, 0.22);
+}
+
 .pricing-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

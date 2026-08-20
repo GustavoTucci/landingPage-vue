@@ -237,3 +237,27 @@
     height: 60px;
   }
 } 
+
+.testimonials {
+  background: var(--surface-dark);
+  border-top: 1px solid rgba(201, 183, 159, 0.16);
+}
+
+.testimonials::before {
+  background: linear-gradient(45deg, rgba(201, 183, 159, 0.08), transparent);
+}
+
+.testimonials .section-title,
+.author-info h4 {
+  color: var(--white);
+}
+
+.testimonial-content {
+  background: var(--surface-dark-soft);
+  border-color: rgba(201, 183, 159, 0.22);
+  box-shadow: none;
+}
+
+.testimonial-text {
+  color: var(--gray-600);
+}

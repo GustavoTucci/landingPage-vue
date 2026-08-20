@@ -109,6 +109,29 @@
 }
 
 .blog-section {
+  background: var(--surface-dark-soft);
+  border-top: 1px solid rgba(201, 183, 159, 0.16);
+}
+
+.blog-title,
+.post-title {
+  color: var(--white);
+}
+
+.blog-post {
+  background: rgba(247, 243, 236, 0.03);
+  border-color: rgba(201, 183, 159, 0.22);
+}
+
+.post-excerpt {
+  color: var(--gray-600);
+}
+
+.post-date {
+  color: var(--gray-500);
+}
+
+.blog-section {
   padding: var(--space-20) 0;
   background: var(--white);
 }

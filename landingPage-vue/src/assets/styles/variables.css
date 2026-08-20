@@ -1,22 +1,24 @@
 :root {
   /* Cores principais atualizadas */
-  --primary: #1A1A1A;
-  --primary-light: #2A2A2A;
-  --secondary: #C4B19C;
+  --primary: #F2EEE7;
+  --primary-light: #D8CBB9;
+  --secondary: #C9B79F;
+  --surface-dark: #1D1D1C;
+  --surface-dark-soft: #252423;
   
   /* Cores de fundo atualizadas */
-  --gray-50: #FAFAFA;
-  --gray-100: #F5F5F5;
+  --gray-50: #212120;
+  --gray-100: #292827;
   
   /* Cores de texto */
-  --text-primary: #1A1A1A;
-  --text-secondary: #4A4A4A;
-  --text-light: #6C6C6C;
+  --text-primary: #F2EEE7;
+  --text-secondary: #C6C0B8;
+  --text-light: #938D85;
   
   /* Cores de destaque */
-  --accent-gold: #C4B19C;
-  --accent-gold-light: #D4C5B4;
-  --accent-gold-dark: #B4A18C;
+  --accent-gold: #C9B79F;
+  --accent-gold-light: #E1D5C5;
+  --accent-gold-dark: #AF9B82;
   
   /* Sombras suavizadas */
   --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -35,16 +37,16 @@
   );
   
   /* Cores neutras */
-  --white: #FFFFFF;
-  --off-white: #F5F5F5;
-  --gray-200: #E4E4E7;
-  --gray-300: #D4D4D8;
-  --gray-400: #A1A1AA;
-  --gray-500: #71717A;
-  --gray-600: #52525B;
-  --gray-700: #3F3F46;
-  --gray-800: #27272A;
-  --gray-900: #18181B;
+  --white: #F7F3EC;
+  --off-white: #ECE6DC;
+  --gray-200: #403E3A;
+  --gray-300: #5D5953;
+  --gray-400: #8C867D;
+  --gray-500: #A9A39A;
+  --gray-600: #C4BEB5;
+  --gray-700: #D7D1C8;
+  --gray-800: #E7E1D8;
+  --gray-900: #F7F3EC;
   
   /* Efeitos */
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);

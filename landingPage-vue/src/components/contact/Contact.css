@@ -185,3 +185,49 @@ textarea.error {
     padding: var(--space-3) 0;
   }
 } 
+
+.contact-section {
+  background: var(--surface-dark);
+  border-top: 1px solid rgba(201, 183, 159, 0.16);
+}
+
+.contact-title,
+.info-text h3,
+label {
+  color: var(--white);
+}
+
+.contact-subtitle,
+.info-text p {
+  color: var(--gray-600);
+}
+
+.contact-info,
+.contact-form {
+  background: var(--surface-dark-soft);
+  border-color: rgba(201, 183, 159, 0.22);
+}
+
+.info-item:not(:last-child) {
+  border-color: rgba(201, 183, 159, 0.18);
+}
+
+.info-icon {
+  background: transparent;
+  border: 1px solid var(--accent-gold);
+  color: var(--accent-gold);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+input,
+textarea {
+  border-color: rgba(201, 183, 159, 0.35);
+  color: var(--white);
+  background: rgba(247, 243, 236, 0.04);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--gray-500);
+}

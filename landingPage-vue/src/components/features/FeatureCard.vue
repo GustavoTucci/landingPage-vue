@@ -1,7 +1,7 @@
 <template>
   <div class="feature-card" :style="cardStyle">
     <div class="feature-icon-wrapper">
-      <span class="feature-icon">{{ feature.icon }}</span>
+      <span class="feature-icon" aria-hidden="true">{{ feature.icon }}</span>
     </div>
     <div class="feature-content">
       <h3>{{ feature.title }}</h3>

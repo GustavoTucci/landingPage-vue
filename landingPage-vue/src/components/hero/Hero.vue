@@ -18,18 +18,16 @@
       </p>
       
       <div class="cta-group">
-        <button class="cta-primary">
+        <a href="#contato" class="cta-primary">
           Solicitar uma proposta
-        </button>
-        <button class="cta-secondary">
+        </a>
+        <a href="#portfolio" class="cta-secondary">
           Ver nosso portfólio
-        </button>
+        </a>
       </div>
-      <!--
       <div class="hero-image">
-        <img src="@/assets/background-sala.jpg" alt="Dashboard Preview">
+        <img src="@/assets/background-sala.jpg" alt="Interior arquitetônico renderizado">
       </div>
-      -->
     </div>
   </section>
 </template>

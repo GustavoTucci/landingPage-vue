@@ -29,21 +29,21 @@ export default {
       features: [
         {
           id: 1,
-          icon: '🚀',
+          icon: '01',
           title: 'Prazos que respeitam o projeto',
           description: 'Um processo organizado para você apresentar cada etapa com segurança.',
           color: '#C4B19C'
         },
         {
           id: 2,
-          icon: '💡',
+          icon: '02',
           title: 'Imagens que comunicam',
           description: 'Composição, luz e materiais pensados para valorizar a intenção do projeto.',
           color: '#D4C5B4'
         },
         {
           id: 3,
-          icon: '🛡️',
+          icon: '03',
           title: 'Parceria do briefing à entrega',
           description: 'Alinhamento próximo para transformar referências em uma narrativa visual consistente.',
           color: '#E5D5C5'
