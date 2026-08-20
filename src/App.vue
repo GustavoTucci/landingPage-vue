@@ -3,6 +3,7 @@
     <MainHeader />
     <HeroSection />
     <FeaturesSection />
+    <PortfolioSection />
     <TestimonialsSection />
     <PricingSection />
     <BlogSection />
@@ -15,6 +16,7 @@
 import MainHeader from './components/header/Header.vue'
 import HeroSection from './components/hero/Hero.vue'
 import FeaturesSection from './components/features/Features.vue'
+import PortfolioSection from './components/portfolio/Portfolio.vue'
 import TestimonialsSection from './components/testimonials/Testimonials.vue'
 import PricingSection from './components/pricing/Pricing.vue'
 import BlogSection from './components/blog/Blog.vue'
@@ -28,6 +30,7 @@ export default {
     MainHeader,
     HeroSection,
     FeaturesSection,
+    PortfolioSection,
     TestimonialsSection,
     PricingSection,
     BlogSection,
