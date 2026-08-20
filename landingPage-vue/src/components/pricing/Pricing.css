@@ -195,3 +195,36 @@
     gap: var(--space-6);
   }
 } 
+
+/* Contraste final dos cards sobre o fundo escuro. */
+.pricing {
+  background: #292826;
+}
+
+.pricing .price-card {
+  background: #353330;
+  border-color: rgba(225, 213, 197, 0.3);
+}
+
+.pricing .price-card.featured {
+  background: #3d3934;
+  border-color: var(--accent-gold);
+}
+
+.pricing .price,
+.pricing .amount,
+.pricing .currency {
+  color: var(--white);
+}
+
+.pricing .features-list li {
+  color: var(--gray-700);
+}
+
+.pricing .period {
+  color: var(--gray-500);
+}
+
+.pricing .cta-button.featured {
+  color: var(--surface-dark);
+}

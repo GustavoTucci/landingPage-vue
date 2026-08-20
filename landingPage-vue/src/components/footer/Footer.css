@@ -216,6 +216,15 @@
   font-size: 0.9rem;
 }
 
+.footer-section {
+  background: #141413;
+}
+
+.footer-description,
+.footer-group ul a {
+  color: var(--gray-600);
+}
+
 @media (max-width: 968px) {
   .footer-content {
     grid-template-columns: 1fr;

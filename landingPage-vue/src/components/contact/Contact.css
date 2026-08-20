@@ -231,3 +231,19 @@ input::placeholder,
 textarea::placeholder {
   color: var(--gray-500);
 }
+
+.contact-section {
+  background: #1b1b1a;
+}
+
+.contact-info,
+.contact-form {
+  background: #302e2b;
+  border-color: rgba(225, 213, 197, 0.3);
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: #252422;
+  border-color: rgba(225, 213, 197, 0.38);
+}
