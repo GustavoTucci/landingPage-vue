@@ -2,7 +2,7 @@
   <section class="testimonials">
     <div class="testimonials-container">
       <div class="testimonials-header">
-        <h2 class="section-title">O que nossos clientes dizem</h2>
+        <h2 class="section-title">Projetos vistos por quem confia</h2>
       </div>
 
       <div class="testimonials-slider" ref="slider">
@@ -60,7 +60,7 @@ export default {
       testimonials: [
         {
           id: 1,
-          text: 'Incrível experiência! A equipe superou todas as expectativas. O projeto foi entregue antes do prazo e com qualidade excepcional.',
+          text: 'A equipe entendeu a essência do projeto e entregou imagens que facilitaram nossa apresentação ao cliente. O resultado foi preciso e elegante.',
           name: 'João Silva',
           role: 'CEO',
           company: 'TechCorp',
@@ -68,7 +68,7 @@ export default {
         },
         {
           id: 2,
-          text: 'A atenção aos detalhes e o profissionalismo da equipe são impressionantes. Recomendo fortemente!',
+          text: 'O processo foi claro do início ao fim. Recebemos um material consistente, com excelente atenção aos detalhes e dentro do prazo combinado.',
           name: 'Maria Santos',
           role: 'Diretora de Marketing',
           company: 'Inovativa',
@@ -76,7 +76,7 @@ export default {
         },
         {
           id: 3,
-          text: 'Transformaram completamente nossa visão em realidade. O resultado final superou nossas expectativas.',
+          text: 'A ARCHVIZ transformou nossa visão em uma experiência visual envolvente. As imagens ajudaram o projeto a ser compreendido e lembrado.',
           name: 'Pedro Costa',
           role: 'Arquiteto Chefe',
           company: 'DesignPro',

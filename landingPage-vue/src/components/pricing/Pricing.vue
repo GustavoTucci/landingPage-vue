@@ -1,8 +1,9 @@
 <template>
   <section class="pricing">
     <div class="pricing-container">
-      <h2 class="section-title">Nossos Planos</h2>
+      <h2 class="section-title">Soluções para cada etapa</h2>
       <div class="title-accent"></div>
+      <p class="pricing-subtitle">Escolha o nível de produção que melhor acompanha o momento do seu projeto.</p>
       
       <div class="pricing-grid">
         <div class="price-card">
@@ -13,11 +14,11 @@
             <span class="period">/mês</span>
           </div>
           <ul class="features-list">
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <li>Feature 3</li>
+            <li>Até 3 imagens renderizadas</li>
+            <li>1 rodada de ajustes</li>
+            <li>Entrega em alta resolução</li>
           </ul>
-          <button class="cta-button">Começar Agora</button>
+          <button class="cta-button">Solicitar proposta</button>
         </div>
 
         <div class="price-card featured">
@@ -29,13 +30,13 @@
             <span class="period">/mês</span>
           </div>
           <ul class="features-list">
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <li>Feature 3</li>
-            <li>Feature 4</li>
-            <li>Feature 5</li>
+            <li>Até 8 imagens renderizadas</li>
+            <li>2 rodadas de ajustes</li>
+            <li>Direção de luz e materiais</li>
+            <li>Imagens para apresentação e divulgação</li>
+            <li>Acompanhamento prioritário</li>
           </ul>
-          <button class="cta-button featured">Começar Agora</button>
+          <button class="cta-button featured">Solicitar proposta</button>
         </div>
 
         <div class="price-card">
@@ -46,14 +47,14 @@
             <span class="period">/mês</span>
           </div>
           <ul class="features-list">
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <li>Feature 3</li>
-            <li>Feature 4</li>
-            <li>Feature 5</li>
-            <li>Feature 6</li>
+            <li>Imagens, animações e tour virtual</li>
+            <li>Direção visual completa do projeto</li>
+            <li>Rodadas de ajustes personalizadas</li>
+            <li>Atendimento dedicado</li>
+            <li>Arquivos preparados para diferentes mídias</li>
+            <li>Planejamento de produção sob medida</li>
           </ul>
-          <button class="cta-button">Começar Agora</button>
+          <button class="cta-button">Falar com a equipe</button>
         </div>
       </div>
     </div>

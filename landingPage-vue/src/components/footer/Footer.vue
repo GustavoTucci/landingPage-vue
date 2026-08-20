@@ -5,7 +5,7 @@
         <div class="footer-brand">
           <h2 class="footer-logo">ARCHVIZ</h2>
           <p class="footer-description">
-            Transformando ideias em realidade digital através de soluções inovadoras e design excepcional.
+            Imagens e experiências digitais para apresentar a arquitetura com clareza, atmosfera e propósito.
           </p>
           <div class="social-links">
             <a href="#" class="social-link">
@@ -24,8 +24,8 @@
           <div class="footer-group">
             <h3>Empresa</h3>
             <ul>
-              <li><a href="#sobre">Sobre</a></li>
-              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#portfolio">Portfólio</a></li>
+              <li><a href="#servicos">Soluções</a></li>
               <li><a href="#portfolio">Portfólio</a></li>
               <li><a href="#contato">Contato</a></li>
             </ul>
@@ -34,10 +34,10 @@
           <div class="footer-group">
             <h3>Serviços</h3>
             <ul>
-              <li><a href="#visualizacao">Visualização 3D</a></li>
-              <li><a href="#realidade-virtual">Realidade Virtual</a></li>
-              <li><a href="#animacao">Animação</a></li>
-              <li><a href="#consultoria">Consultoria</a></li>
+              <li><a href="#portfolio">Visualização 3D</a></li>
+              <li><a href="#portfolio">Experiências imersivas</a></li>
+              <li><a href="#portfolio">Animação arquitetônica</a></li>
+              <li><a href="#contato">Direção visual</a></li>
             </ul>
           </div>
 

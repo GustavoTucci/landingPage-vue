@@ -2,10 +2,10 @@
   <section class="contact-section">
     <div class="contact-container">
       <div class="contact-header">
-        <h2 class="contact-title">Entre em Contato</h2>
+        <h2 class="contact-title">Vamos dar o próximo passo</h2>
         <div class="title-accent"></div>
         <p class="contact-subtitle">
-          Estamos prontos para transformar sua visão em realidade. Entre em contato conosco.
+          Conte um pouco sobre seu projeto e nossa equipe retornará com os próximos passos para transformar sua ideia em uma apresentação visual memorável.
         </p>
       </div>
 
@@ -15,7 +15,7 @@
             <div class="info-icon">📍</div>
             <div class="info-text">
               <h3>Localização</h3>
-              <p>Av. Paulista, 1000 - São Paulo, SP</p>
+              <p>Atendimento remoto para todo o Brasil</p>
             </div>
           </div>
           
@@ -23,7 +23,7 @@
             <div class="info-icon">📞</div>
             <div class="info-text">
               <h3>Telefone</h3>
-              <p>+55 (11) 9999-9999</p>
+              <p>+55 (11) 99999-9999</p>
             </div>
           </div>
           
@@ -31,7 +31,7 @@
             <div class="info-icon">✉️</div>
             <div class="info-text">
               <h3>Email</h3>
-              <p>contato@archviz.com</p>
+              <p>projetos@archviz.com</p>
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@
                 id="name" 
                 v-model="form.name"
                 :class="{ 'error': errors.name }"
-                placeholder="Seu nome completo"
+                placeholder="Como podemos chamar você?"
               >
               <span class="error-message" v-if="errors.name">{{ errors.name }}</span>
             </div>
@@ -69,7 +69,7 @@
                 id="subject" 
                 v-model="form.subject"
                 :class="{ 'error': errors.subject }"
-                placeholder="Assunto da mensagem"
+                placeholder="Ex.: imagens para lançamento residencial"
               >
               <span class="error-message" v-if="errors.subject">{{ errors.subject }}</span>
             </div>
@@ -80,7 +80,7 @@
                 id="message" 
                 v-model="form.message"
                 :class="{ 'error': errors.message }"
-                placeholder="Sua mensagem"
+                placeholder="Conte sobre o projeto, prazo e tipo de material que você precisa"
                 rows="6"
               ></textarea>
               <span class="error-message" v-if="errors.message">{{ errors.message }}</span>
@@ -88,7 +88,7 @@
           </div>
 
           <button type="submit" class="submit-button" :disabled="isSubmitting">
-            {{ isSubmitting ? 'Enviando...' : 'Enviar Mensagem' }}
+            {{ isSubmitting ? 'Enviando...' : 'Solicitar uma conversa' }}
           </button>
         </form>
       </div>

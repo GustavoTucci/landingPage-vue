@@ -5,7 +5,7 @@
         <span class="portfolio-eyebrow">Nosso trabalho</span>
         <h2 class="section-title">Projetos que ganham vida</h2>
         <p class="portfolio-subtitle">
-          Explore uma seleção de projetos em que estratégia, arquitetura e imagem se encontram.
+          Conheça trabalhos desenvolvidos para apresentar espaços com clareza, atmosfera e personalidade.
         </p>
       </div>
 

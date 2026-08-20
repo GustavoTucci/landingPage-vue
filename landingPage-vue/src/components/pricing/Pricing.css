@@ -27,6 +27,14 @@
   position: relative;
 }
 
+.pricing-subtitle {
+  max-width: 620px;
+  margin: calc(var(--space-8) * -1) auto var(--space-8);
+  color: var(--gray-600);
+  line-height: 1.7;
+  text-align: center;
+}
+
 .pricing-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

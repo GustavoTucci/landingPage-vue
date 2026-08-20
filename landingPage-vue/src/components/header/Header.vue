@@ -18,10 +18,10 @@
 
       <div class="nav-links" :class="{ 'active': isMenuOpen }">
         <a href="#home" class="nav-link" @click="closeMenu">Home</a>
-        <a href="#sobre" class="nav-link" @click="closeMenu">Sobre</a>
-        <a href="#servicos" class="nav-link" @click="closeMenu">Serviços</a>
+        <a href="#portfolio" class="nav-link" @click="closeMenu">Portfólio</a>
+        <a href="#servicos" class="nav-link" @click="closeMenu">Soluções</a>
         <a href="#contato" class="nav-link" @click="closeMenu">Contato</a>
-        <button class="nav-cta">Começar Agora</button>
+        <a href="#contato" class="nav-cta" @click="closeMenu">Solicitar proposta</a>
       </div>
     </nav>
   </header>

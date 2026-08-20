@@ -1,7 +1,7 @@
 <template>
-  <section class="features">
+  <section id="servicos" class="features">
     <div class="features-container">
-      <h2 class="section-title">Nossos Diferenciais</h2>
+      <h2 class="section-title">Precisão em cada detalhe</h2>
       
       <div class="features-grid">
         <FeatureCard
@@ -30,22 +30,22 @@ export default {
         {
           id: 1,
           icon: '🚀',
-          title: 'Rápido e Eficiente',
-          description: 'Soluções otimizadas para máxima performance',
+          title: 'Prazos que respeitam o projeto',
+          description: 'Um processo organizado para você apresentar cada etapa com segurança.',
           color: '#C4B19C'
         },
         {
           id: 2,
           icon: '💡',
-          title: 'Inovação Constante',
-          description: 'Sempre atualizado com as últimas tecnologias',
+          title: 'Imagens que comunicam',
+          description: 'Composição, luz e materiais pensados para valorizar a intenção do projeto.',
           color: '#D4C5B4'
         },
         {
           id: 3,
           icon: '🛡️',
-          title: 'Segurança Total',
-          description: 'Proteção completa para seus dados',
+          title: 'Parceria do briefing à entrega',
+          description: 'Alinhamento próximo para transformar referências em uma narrativa visual consistente.',
           color: '#E5D5C5'
         }
         // Adicione mais features conforme necessário

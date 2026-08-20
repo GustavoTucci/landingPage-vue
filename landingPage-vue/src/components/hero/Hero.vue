@@ -1,28 +1,28 @@
 <template>
-  <section class="hero">
+  <section id="home" class="hero">
     <div class="bg-grid"></div>
     <div class="bg-glow"></div>
     
     <div class="hero-content">
       <span class="hero-badge">
-        ✨ Descubra o futuro da inovação
+        Visualização arquitetônica com intenção
       </span>
       
       <h1 class="hero-title">
-        Transforme suas ideias em realidade digital
+        Dê forma às ideias que ainda estão no papel
       </h1>
       
       <p class="hero-subtitle">
-        Criamos soluções digitais inovadoras que impulsionam seu negócio para o próximo nível, 
-        combinando design excepcional com tecnologia de ponta.
+        Criamos imagens, animações e experiências imersivas que tornam projetos arquitetônicos
+        mais claros, desejáveis e fáceis de aprovar.
       </p>
       
       <div class="cta-group">
         <button class="cta-primary">
-          Comece Agora
+          Solicitar uma proposta
         </button>
         <button class="cta-secondary">
-          Saiba Mais
+          Ver nosso portfólio
         </button>
       </div>
       <!--

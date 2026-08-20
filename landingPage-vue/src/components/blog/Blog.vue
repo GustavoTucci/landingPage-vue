@@ -1,7 +1,7 @@
 <template>
   <section class="blog-section">
     <div class="blog-container">
-      <h2 class="blog-title">Blog</h2>
+      <h2 class="blog-title">Conteúdo para projetar melhor</h2>
       <div class="title-accent"></div>
       
       <div class="blog-grid">
@@ -37,24 +37,24 @@ export default {
       posts: [
         {
           id: 1,
-          title: 'Como a Arquitetura Digital está Revolucionando Projetos',
-          excerpt: 'Descubra as últimas tendências em visualização arquitetônica e como elas estão transformando a indústria.',
+          title: 'Como a visualização arquitetônica valoriza um projeto',
+          excerpt: 'Entenda como enquadramento, luz e narrativa ajudam seu projeto a ser compreendido antes mesmo da obra.',
           image: img1,
           category: 'Tendências',
           date: '15 Mar 2024'
         },
         {
           id: 2,
-          title: 'O Impacto da Realidade Virtual na Apresentação de Projetos',
-          excerpt: 'Explore como a VR está mudando a forma como arquitetos apresentam seus projetos aos clientes.',
+          title: 'Quando usar imagens, animação ou tour virtual',
+          excerpt: 'Veja qual formato visual faz mais sentido para apresentar ambientes, vender unidades ou conquistar aprovação.',
           image: img2,
           category: 'Tecnologia',
           date: '12 Mar 2024'
         },
         {
           id: 3,
-          title: 'Sustentabilidade e Design Digital: O Futuro da Arquitetura',
-          excerpt: 'Como as ferramentas digitais estão contribuindo para projetos mais sustentáveis.',
+          title: 'Materiais e luz: o detalhe que muda tudo',
+          excerpt: 'Boas escolhas de iluminação e acabamento dão profundidade à imagem e revelam a intenção do projeto.',
           image: img3,
           category: 'Sustentabilidade',
           date: '10 Mar 2024'
